@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+.fnt_i
+{
+    font-size: 10rem;
+    font-family: 'Playfair', serif ;
+    color:red;
+    padding:30px;
+}
+/*
+font-family: 'Playfair', serif;
+font-family: 'Roboto', sans-serif;
+*/
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bor_D{
+    border:30px solid blue;
+    width:300px;
+    height:300px;
+    border-image: url(../Image/2.jpg) round 100;
+}
+img{
+    margin:23px;
+    padding-left: 22px;
+}
+
+.te_D{
+    text-decoration: underline;
+    text-decoration-color:red;
+    text-shadow: 2px 3px 4px blue;
+}
+
+.solid{border:solid;}
+.dashed{
+    border:dashed;
+    border-top-width: 20px;
+}
+.ridge{border:ridge;border-bottom-width: 30px;}
+.groove{border:groove;border-top-width:40px;}
+.inset{border:inset;border-top-color:blue;}
+.outset{border:outset;}
